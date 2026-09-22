@@ -28,7 +28,7 @@ jobs:
         uses: nttld/setup-ndk@main
         id: setup-ndk
         with:
-          ndk-version: r21e
+          ndk-version: r27c
 
       - name: Install Haxelib
         run: |
